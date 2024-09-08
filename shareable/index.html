@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Resume Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header for the milestone -->
+    <header>
+      <h1>Unique Path and Shareable Resume</h1>
+    </header>
+
+    <!-- Section for displaying resume content -->
+    <section id="resume-section">
+      <div class="container">
+        <h2 id="username-heading">Resume for <span id="username"></span></h2>
+
+        <!-- Personal Information -->
+        <div class="section" id="personal-info">
+          <h3>Personal Information</h3>
+          <p><strong>Name:</strong> <span id="user-name">Enter Name</span></p>
+          <p>
+            <strong>Email:</strong>
+            <span id="user-email">enteremail@example.com</span>
+          </p>
+          <p>
+            <strong>Phone:</strong>
+            <span id="user-phone">+1234566788</span>
+          </p>
+          <p>
+            <strong>Address:</strong>
+            <span id="user-address">1234 # malir, karachi</span>
+          </p>
+        </div>
+
+        <!-- Education -->
+        <div class="section" id="education">
+          <h3>Education</h3>
+          <p>
+            <strong>University:</strong>
+            <span id="user-university">Iqra University</span>
+          </p>
+          <p>
+            <strong>Degree:</strong>
+            <span id="user-degree"
+              >Bachelor of Science in Computer Science</span
+            >
+          </p>
+          <p>
+            <strong>Graduation Year:</strong>
+            <span id="user-grad-year">2026</span>
+          </p>
+        </div>
+
+        <!-- Work Experience -->
+        <div class="section" id="work-experience">
+          <h3>Work Experience</h3>
+          <div class="job">
+            <p>
+              <strong>Job Title:</strong>
+              <span id="user-job-title">Software Developer</span>
+            </p>
+            <p>
+              <strong>Company:</strong>
+              <span id="user-company">Tech Innovators Inc.</span>
+            </p>
+            <p>
+              <strong>Duration:</strong>
+              <span id="user-duration">2022 - 2024</span>
+            </p>
+            <p>
+              <strong>Responsibilities:</strong> Developing web applications
+              using modern technologies such as HTML, CSS, JavaScript, and
+              TypeScript.
+            </p>
+          </div>
+        </div>
+
+        <!-- Skills -->
+        <div class="section" id="skills">
+          <h3>Skills</h3>
+          <ul id="skills-list">
+            <li>HTML & CSS</li>
+            <li>JavaScript & TypeScript</li>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Responsive Web Design</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Buttons for sharing and downloading -->
+    <div class="actions">
+      <button id="share-btn">Share Resume Link</button>
+      <button id="download-btn">Download as PDF</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
